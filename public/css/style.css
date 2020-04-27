@@ -1,0 +1,123 @@
+.brand-logo{
+    font-weight: bolder;
+}
+.nav-wrapper {
+    
+    border-bottom: 5px;
+    border-style: groove;
+}
+html {
+    background-image: url("/images/blue-gradient.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    scroll-behavior: smooth;
+    background-color: black;
+}
+#profilePic {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 5%;
+    border-color: white;
+    border-style: double;
+}
+nav {
+    width: 100%;
+    margin: auto;
+}
+.black {
+    color: white;
+}
+.homePage {
+    margin-top: 10%;
+}
+.text span{
+    display: inline-block;
+}
+span {
+    display: inline-block;
+    -ms-transition: 0.4s ease-in-out;
+   -webkit-transition: 0.4s ease-in-out;
+   transition: 0.4s ease-in-out;
+}
+span:hover{
+    color: green;
+    -ms-transform: rotate(30deg); /* IE 9 */
+    -webkit-transform: rotate(30deg); /* Chrome, Safari, Opera */
+    transform: rotate(30deg);
+    transition: all 0.5s;
+    
+}
+span.name{
+    color: red;
+}
+.m-left{
+    margin-left: -10px;
+}
+/* .card {
+    border-style: double;
+    border-color: white;
+    border-radius: 10%;
+    border-width: 5px; 
+} */
+.portfolioCard {
+    overflow: auto;
+    
+}
+.card-content {
+    overflow: auto;
+    margin-bottom: 100px;
+}
+#portfolioImage {
+    border-radius: 5%;
+    margin-top: 10px;
+    height: 175px;
+    width: 325px;
+}
+.portfolioCtnt {
+    margin-bottom: 0;
+    position: relative;
+    font-weight: bolder;
+}
+h2 {
+    color: white;
+    font-weight: bolder;
+}
+.dropdown-content {
+    color: white;
+    text-decoration: white;
+}
+footer {
+    overflow: auto;
+    margin: 0 auto;
+    padding-top: 20px;
+    border-top-style: double;
+    border-color: white;
+    border-top-width: 8px;
+    text-align: center;
+    font-size: small;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    clear: both;
+}
+h6 {
+    color: white;
+}
+.no-scroll::-webkit-scrollbar-track {
+	display: none;
+}
+
+.no-scroll::-webkit-scrollbar {
+	display: none;
+}
+
+.no-scroll::-webkit-scrollbar-thumb {
+	display: none;
+}
+.container {
+    margin-top: 5%;
+}
+.sidenav {
+    background-color: black;
+    color: white;
+}

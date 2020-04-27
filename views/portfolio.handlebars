@@ -1,0 +1,19 @@
+<div class="container">
+    <div class="row">
+        <div class="col s12">
+            <div class="N/A transparent vov fade-in-up t-1">
+                <div class="card-content no-scroll">
+                    <div class="card-title vov fade-in-up t-1">
+                        <h2>Some of my projects</h2>
+                    </div>
+                    <hr>
+                    <div id="portfolioContents" class="carousel vov fade-in-up t-2">
+                        {{#each data}}
+                            {{> blocks/port-item }}
+                        {{/each}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
