@@ -1,8 +1,19 @@
-const portObjects = [{
+const portObjects = [
+  {
+    name: "Portfolio Website",
+    screenshot: "/images/PP-ss.PNG",
+    url: "https://github.com/alexjoeldelgado/professional-portfolio",
+    dscr: "This here is the repository for the website you are on!"
+  },{
+    name: "VEG-HEAD",
+    screenshot: "/images/VH-ss.jpg",
+    url: "https://alexjoeldelgado.github.io/veg-head/",
+    dscr: "A web application designed for Vegetarians to search for local vegetarian-friendly restaurants and vegetarian recipes."
+  },{
     name: "Employee Tracker",
     screenshot: "/images/ET-ss.PNG",
     url: "https://github.com/alexjoeldelgado/EmployeeTracker",
-    dscr: "A web application designed to add, delete, and update employee information for a database."
+    dscr: "A Node application designed to add, delete, and update employee information for a database."
   },{
     name: "Burger: Practice with Handlebars",
     screenshot: "/images/BB-ss.PNG",
@@ -14,11 +25,6 @@ const portObjects = [{
     url: "https://infinite-shore-79977.herokuapp.com/",
     dscr: "A web application designed to create, save, and delete notes."
   },{
-    name: "VEG-HEAD",
-    screenshot: "/images/VH-ss.jpg",
-    url: "https://alexjoeldelgado.github.io/veg-head/",
-    dscr: "A web application designed for Vegetarians to search for local vegetarian-friendly restaurants and vegetarian recipes."
-  },,{
     name: "Weather Dashboard",
     screenshot: "/images/WD-ss.PNG",
     url: "https://alexjoeldelgado.github.io/WeatherDashboard/",

@@ -2,7 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta name="keywords" content="Front-end, Front, End, Developer, Front End Developer, Web Developer, Resume, Web, UI/UX, Back-end, programmer, HTML, CSS, Javascript, Materialize, Sidenav">
+    <meta name="author" content="Alexander Delgado">
+    <meta name="description" content="Portfolio Resume for Alexander Delgado">
     <title>Welcome</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -12,32 +15,59 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>   
 </head>
 <body>
-    <ul id="slide-out" class="sidenav">
-    <li><div class="user-view">
-      <div class="background">
-        <img src="images/vector.jpg">
-      </div>
-      {{!-- <img class="circle" src="images/profile.jpg"> --}}
-      <h4 class="white-text name">Alexander Delgado</h4>
-      <h4 class="name">Full Stack Web Developer using experience from a background in Hospitality to create User Friendly web applications</h4>
-      <a href="mailto:alexjoeldelgado@gmail.com"><h4 class="white-text email">alexjoeldelgado@gmail.com</h4></a>
-    </div></li>
-    <br><br><br><br>
-    <li><a class="waves-effect white-text" href="/">Home</a></li>
-    <li><div class="divider"></div></li>
-    <li><a class="waves-effect white-text" href="/about">About</a></li>
-    <li><div class="divider"></div></li>
-    <li><a class="waves-effect white-text" href="/portfolio">Portfolio</a></li>
-    <li><div class="divider"></div></li>
-    <li><a class="waves-effect white-text" href="/resume">Resume</a></li>
-    <li><div class="divider"></div></li>
-    <li><a class="waves-effect white-text" href="/contact">Contact</a></li>
-    <li><div class="divider"></div></li>
-    <li><a class="waves-effect white-text" href="https://www.linkedin.com/in/alexanderdelgado1" target="_blank">LinkedIn</a></li>
-    <li><div class="divider"></div></li>
-    <li><a class="waves-effect white-text" href="https://github.com/alexjoeldelgado" target="_blank">Github</a></li>
-  </ul>
-  <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="medium white-text material-icons">reorder</i></a>
+    <ul id="slide-out" class="sidenav sidenav-fixed">
+      <li>
+        <div class="user-view">
+          <div class="background">
+            <img src="images/vector.jpg" alt="sidenav-bg-image">
+          </div>
+          <h4 class="white-text name">Alexander Delgado</h4>
+          <h4 class="name">Full Stack Web Developer using experience from a background in Hospitality to create User Friendly web applications</h4>
+          <a href="mailto:alexjoeldelgado@gmail.com"><h4 class="white-text email">alexjoeldelgado@gmail.com</h4></a>
+        </div>
+      </li>
+      <br><br><br>
+      <li>
+        <a class="waves-effect white-text" href="/">Home</a>
+      </li>
+      <li>
+        <div class="divider"></div>
+      </li>
+      <li>
+        <a class="waves-effect white-text" href="/about">About</a>
+      </li>
+      <li>
+        <div class="divider"></div>
+      </li>
+      <li>
+        <a class="waves-effect white-text" href="/portfolio">Portfolio</a>
+      </li>
+      <li>
+        <div class="divider"></div>
+      </li>
+      <li>
+        <a class="waves-effect white-text" href="/resume">Resume</a>
+      </li>
+      <li>
+        <div class="divider"></div>
+      </li>
+      <li>
+        <a class="waves-effect white-text" href="/contact">Contact</a>
+      </li>
+      <li>
+        <div class="divider"></div>
+      </li>
+      <li>
+        <a class="waves-effect white-text" href="https://www.linkedin.com/in/alexanderdelgado1" target="_blank" rel="noreferrer">LinkedIn</a>
+      </li>
+      <li>
+        <div class="divider"></div>
+      </li>
+      <li>
+        <a class="waves-effect white-text" href="https://github.com/alexjoeldelgado" target="_blank" rel="noreferrer">Github</a>
+      </li>
+    </ul>
+    <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="medium white-text material-icons">reorder</i></a>
         
 {{{ body }}}
 
