@@ -10,6 +10,11 @@ const portObjects = [
     url: "https://alexjoeldelgado.github.io/veg-head/",
     dscr: "A web application designed for Vegetarians to search for local vegetarian-friendly restaurants and vegetarian recipes."
   },{
+    name: "Aloha",
+    screenshot: "/images/AIM-ss.jpg",
+    url: "https://hidden-sea-12674.herokuapp.com/",
+    dscr: "A web application designed for real-time instant messaging. Not Functional at the Moment"
+  },{
     name: "Employee Tracker",
     screenshot: "/images/ET-ss.PNG",
     url: "https://github.com/alexjoeldelgado/EmployeeTracker",

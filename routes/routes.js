@@ -39,7 +39,12 @@ module.exports = function(app) {
         from: `${req.body.email}`,
         to: `${process.env.MAILEMAIL}`,
         subject: `Contact Form Submission from ${req.body.name}`,
-        text: `${req.body.message}`
+        text: 
+        `
+        Name: ${req.body.name}
+        Email: ${req.body.email}  
+        Message: ${req.body.message}
+        ` 
       };
           
       transporter.sendMail(mailOptions, function(error, info){
