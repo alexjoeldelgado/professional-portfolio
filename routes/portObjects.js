@@ -11,7 +11,7 @@ const portObjects = [
     dscr: "A web application designed for Vegetarians to search for local vegetarian-friendly restaurants and vegetarian recipes."
   },{
     name: "Aloha",
-    screenshot: "/images/AIM-ss.jpg",
+    screenshot: "/images/AIM-ss.PNG",
     url: "https://hidden-sea-12674.herokuapp.com/",
     dscr: "A web application designed for real-time instant messaging. Not Functional at the Moment"
   },{
